@@ -1,0 +1,19 @@
+.container {
+  background-color: #ffebcd;
+  margin: 30px auto;
+  width: 660px;
+  height: 660px;
+  display: grid;
+  grid-template-columns: repeat(20, 33px);
+  grid-template-rows: repeat(20, 33px);
+}
+.item {
+  background-color: #ffebcd;
+  border: 1px solid gold;
+}
+.food {
+  background-color: gold;
+}
+.snack {
+  background-color: #005cc5;
+}
